@@ -1,0 +1,20 @@
+.mi-boton{
+  padding: 10px 20px;
+  background: purple;
+  color: black;
+  border-radius: 7px;
+  user-select: none;
+  margin: 3px;
+  width: fit-content;
+  height: fit-content;
+  box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.7) ;
+}
+
+.mi-boton:hover{
+  background: purple;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.mi-boton:active{
+  transform: scale(0.95);
+}
